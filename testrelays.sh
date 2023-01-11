@@ -104,7 +104,10 @@ then
 fi
 
 # Set pins as outputs
-setOutput $RELAY
+setOutput "11"
+setOutput "9"
+setOutput "10"
+setOutput "22"
 
 setRelayState $RELAY $STATE
 
