@@ -44,7 +44,8 @@ Note that the RPI cannot provide sufficient current on it's own to power more th
 
 
 Quad relay wiring diagram is below:
-![image](https://user-images.githubusercontent.com/33469212/211959362-7103e9b2-bcd0-4a9c-8d85-7fd05443cbf0.png)
+![quadrelaywiring](https://user-images.githubusercontent.com/33469212/211959493-7a13d7da-4377-43c1-8f50-426802d3349c.jpg)
+
 
 
 
