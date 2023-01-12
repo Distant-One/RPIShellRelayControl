@@ -43,6 +43,11 @@ Note that the RPI cannot provide sufficient current on it's own to power more th
 ![71x5CobURnL _AC_SX679_](https://user-images.githubusercontent.com/33469212/211696390-93347097-db83-4c5c-9f50-29bd0908837c.jpg)
 
 
+Quad relay wiring diagram is below:
+![image](https://user-images.githubusercontent.com/33469212/211959362-7103e9b2-bcd0-4a9c-8d85-7fd05443cbf0.png)
+
+
+
 To Do:
 1. Generate Schematic
 
