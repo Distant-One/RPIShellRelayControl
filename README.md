@@ -43,6 +43,29 @@ Note that the RPI cannot provide sufficient current on it's own to power more th
 ![71x5CobURnL _AC_SX679_](https://user-images.githubusercontent.com/33469212/211696390-93347097-db83-4c5c-9f50-29bd0908837c.jpg)
 
 
+Quad relay wiring diagram is below:
+![quadrelaywiring](https://user-images.githubusercontent.com/33469212/211960161-b1741f04-6291-4aad-a511-02bd54ebe233.jpg)
+
+
+
+Adding buttons to allow local control of relays
+
+Button control gpio connections:
+
+RPI gpio 23 pin 16 to Switch 1 Normally Open Pin
+
+RPI gpio 24 pin 18 to Switch 2 Normally Open Pin
+
+RPI GND pin 20 to Switch 1-4 Common Pin
+
+RPI gpio 25 pin 22 to Switch 1 Normally Open Pin
+
+RPI gpio 8 pin 24 to Switch 1 Normally Open Pin
+
+
+
+
+
 To Do:
 1. Generate Schematic
 
