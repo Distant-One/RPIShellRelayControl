@@ -14,20 +14,42 @@
 
 RELAY="0"
 DEVICE=$1
+POWERCOMMAND=$2
+echo "DEVICE = $DEVICE, POWERCOMMAND = $POWERCOMMAND"
+if [ $DEVICE == "4" ]
+then
+  #  GPIO 11 Pin 23
+  RELAY="11"
+fi
 if [ $DEVICE == "3926_Water" ]
 then
   #  GPIO 11 Pin 23
   RELAY="11"
+fi
+if [ $DEVICE == "3" ]
+then
+  #  GPIO 9 Pin 21
+  RELAY="9"
 fi
 if [ $DEVICE == "3926_Damage" ]
 then
   #  GPIO 9 Pin 21
   RELAY="9"
 fi
+if [ $DEVICE == "2" ]
+then
+  #  GPIO 10 Pin 21
+  RELAY="10"
+fi
 if [ $DEVICE == "5160" ]
 then
   #  GPIO 10 Pin 21
   RELAY="10"
+fi
+if [ $DEVICE == "1" ]
+then
+  #  GPIO 22 Pin 15
+  RELAY="22"
 fi
 if [ $DEVICE == "CC5164" ]
 then
@@ -36,7 +58,7 @@ then
 fi
 echo "RELAY set to $RELAY"
 
-POWERCOMMAND=$2
+#POWERCOMMAND=$2
 if [ $POWERCOMMAND == "ON" ]
 then
   STATE="1"
